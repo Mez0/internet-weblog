@@ -16,13 +16,13 @@
     {{ end }}
   </div>
 
-  <p>
+  <!-- <p>
     {{ if (not (isset .Params "externalurl")) }}
       {{ .Summary }}
     {{ else }}
       {{ .Content }}
     {{ end }}
-  </p>
+  </p> -->
 
   {{ if .Truncated }}
     {{ if (not (isset .Params "externalurl")) }}

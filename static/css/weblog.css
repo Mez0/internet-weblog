@@ -1,5 +1,8 @@
 
 /* Page */
+.footnotes {
+  font-style: italic;
+}
 
 body {
   font: 16px/24px "Avenir Next", "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -115,7 +118,7 @@ nav ul > li {
 /* Articles */
 
 .micropost {
-  background-color: #F0F2F5;
+  /* background-color: #F0F2F5; */
   margin: 40px auto;
   padding: 10px;
   max-width: 780px;
