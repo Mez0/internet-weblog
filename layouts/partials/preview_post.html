@@ -22,11 +22,11 @@
     {{ else }}
       {{ .Content }}
     {{ end }}
-  </p> -->
+  </p>
 
   {{ if .Truncated }}
     {{ if (not (isset .Params "externalurl")) }}
       <a class="continue" rel="full-article" href="{{ .Permalink }}">Continue Reading »</a>
     {{ end }}
-  {{ end }}
+  {{ end }} -->
 </article>
