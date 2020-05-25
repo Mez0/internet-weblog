@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="{{ with .Site.Author.firstname }}{{ . }}{{ end }} {{ with .Site.Author.lastname }}{{ . }}{{ end }}">
     <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+    {{ if .Site.Params.blocksearchengines }}
+    <meta name="robots" content="noindex">
+    {{ end }}
     {{ hugo.Generator }}
 
     {{ $.Scratch.Add "title" .Site.Title }}

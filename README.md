@@ -149,6 +149,7 @@ These posts are rendered slightly different with an → to signify that it is re
 | `[params]` - `RSSMicropostTitles` | `true` or `false` | No. If false, Microposts RSS feeds will not have the title in included posts. If not present or true, nothing happens. |
 | `[params]` - `YearlyMicroposts` | `true` or `false` | No. If true, Microposts will have a page with a yearly grouping just like the posts.  If not present or false, the default of not having a micropost yearly grouping is applied. |
 | `[params]` - `SummarizeMicroposts` | `true` or `false` | No. If true, Microposts will be summarized in the main list just like posts with a continue reading link.  If not present or false, the default of not summarizing microposts is applied. |
+| `[params]` - `BlockSearchEngines` | `true` or `false`| No. If true, Microposts will insert `<meta name="robots" content="noindex">` into `<head>`. See this [link](https://support.google.com/webmasters/answer/93710?hl=en) for explanation. If not present or false, this meta tag will not be added. |
 
 Here is an example `config.toml`:
 
