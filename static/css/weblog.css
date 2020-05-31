@@ -11,6 +11,12 @@
   font-style: italic;
 }
 
+/* Code Block */
+pre {
+  padding: 1rem;
+  border-radius: .3em;
+}
+
 body {
   font: 16px/24px "Avenir Next", "Helvetica Neue", -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial, Helvetica,"Microsoft Yahei", sans-serif;
   line-height: 24px;
