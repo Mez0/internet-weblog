@@ -32,6 +32,14 @@ code {
   border-radius: 6px;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 }
+/* Ordered List (Github) */
+ol {
+  list-style-type: decimal;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #666666;
+}
 
 body {
   font: 16px/24px "Avenir Next", "Helvetica Neue", -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial, Helvetica,"Microsoft Yahei", sans-serif;
