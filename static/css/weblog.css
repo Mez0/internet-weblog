@@ -22,6 +22,17 @@ pre {
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
+/* Code */
+/* Styles from Github */
+code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,.05);
+  border-radius: 6px;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+}
+
 body {
   font: 16px/24px "Avenir Next", "Helvetica Neue", -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial, Helvetica,"Microsoft Yahei", sans-serif;
   line-height: 24px;
