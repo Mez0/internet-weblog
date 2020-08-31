@@ -11,17 +11,6 @@
   font-style: italic;
 }
 
-/* Code Block */
-pre {
-  padding: 1rem;
-  border-radius: .3em;
-  white-space: pre-wrap;       /* Since CSS 2.1 */
-  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-  white-space: -pre-wrap;      /* Opera 4-6 */
-  white-space: -o-pre-wrap;    /* Opera 7 */
-  word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
-
 /* Code */
 /* Styles from Github */
 code {
@@ -32,6 +21,23 @@ code {
   border-radius: 6px;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 }
+
+/* Code Block */
+pre {
+  display: block;
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: .3em;
+  white-space: pre;
+  word-spacing: normal;
+  word-wrap: normal;
+}
+
+/* Code */
+/* Styles from Github */
+pre code {
+  padding: 0;
+}
 /* Ordered List (Github) */
 ol {
   list-style-type: decimal;
@@ -39,6 +45,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   color: #666666;
+  padding-left: 1em;
 }
 
 body {
