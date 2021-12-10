@@ -110,8 +110,8 @@ header h1 {
   font-size: 30px;
   line-height: 32px;
   margin: 0 auto;
-  padding: 10px 10px 0 10px;
-  max-width: 720px;
+  padding: 10px 10px 0 0;
+  max-width: 780px;
   color: #5B636E;
 }
 
@@ -125,13 +125,14 @@ article > ul > li {
 
 nav {
   margin: auto;
-  max-width: 720px;
+  max-width: 780px;
   text-align: center;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0 auto;
+  padding-left: 0;
 }
 
 nav ul > li {
@@ -298,7 +299,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  width: 720px;
+  width: 780px;
 }
 
 .footer_text h3 {
@@ -311,7 +312,7 @@ footer {
 
 .footer_text > div {
   flex: 1;
-  margin: 10px;
+  margin: 10px 10px  0 0;
 }
 
 #photos {
@@ -411,5 +412,10 @@ and (max-width: 780px) {
 
   .post-group-item {
     width: 100%;
+  }
+
+  .footer_text > div {
+    flex: 1;
+    margin: 10px;
   }
 }
