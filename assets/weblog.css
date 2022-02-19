@@ -67,7 +67,8 @@ h1, h2, h3, h4 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 60%;
+  height: auto;
 }
 
 blockquote {
@@ -313,39 +314,6 @@ footer {
 .footer_text > div {
   flex: 1;
   margin: 10px 10px  0 0;
-}
-
-#photos {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.photo-item {
-  display: block;
-  height: 75px;
-  margin: 1px;
-  overflow: hidden;
-  padding: 0;
-  width: 75px;
-}
-
-.photo-item img {
-  flex: auto;
-  -webkit-transition: -webkit-transform 0.15s ease 0s;
-  -moz-transition: -moz-transform 0.15s ease 0s;
-  -o-transition: -o-transform 0.15s ease 0s;
-  transition: transform 0.15s ease 0s;
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  height: 100%;
-  width: 100%;
-  opacity: 0.6;
-}
-
-.photo-item img:hover {
-  -webkit-transform: scale3d(1.05, 1.05, 1.05);
-  transform: scale3d(1.05, 1.05, 1.05);
-  opacity: 1.0;
 }
 
 .footer_copyright {
