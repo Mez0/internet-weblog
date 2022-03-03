@@ -16,8 +16,10 @@
     {{ partial "preview_photo_post.html" . }}
   {{ end }}
 
-  {{ if or (eq .Type "posts") (eq .Type "post") }}
-    {{ partial "preview_post.html" . }}
+  {{ if not (eq .Params.unlisted true) }}
+    {{ if or (eq .Type "posts") (eq .Type "post") }}
+      {{ partial "preview_post.html" . }}
+    {{ end }}
   {{ end }}
 
 {{ end }}
