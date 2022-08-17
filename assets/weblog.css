@@ -388,6 +388,7 @@ and (max-width: 780px) {
   }
 }
 
+
 @media (prefers-color-scheme: dark) {
   body {
     background: #000;
@@ -395,9 +396,7 @@ and (max-width: 780px) {
 
   }
 
-  h1,
-  h2,
-  h3 {
+  h1, h2, h3 {
     color: #aaa;
   }
 
@@ -405,13 +404,8 @@ and (max-width: 780px) {
     color: #fff;
   }
 
-  nav ul:first-child {
-    border-top: #333537 1px solid;
-  }
-
   nav ul > li {
-    background-color: #000;
-    border-bottom: #333537 1px solid;
+    background-color: #18181C;
   }
 
   header h1 {
@@ -435,3 +429,14 @@ and (max-width: 780px) {
   }
 }
 
+
+@media (prefers-color-scheme: dark) and (max-width: 780px) {
+  nav ul > li {
+    background-color: ##8e8e93;
+    border-bottom: #333537 1px solid;
+  }
+
+  nav ul:first-child {
+    border-top: #333537 1px solid;
+  }
+}
