@@ -427,6 +427,10 @@ and (max-width: 780px) {
   .post-group-item:hover {
     background-color: #18181C;
   }
+
+  code {
+    background-color: #343941;
+  }
 }
 
 
