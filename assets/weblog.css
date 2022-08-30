@@ -421,7 +421,7 @@ and (max-width: 780px) {
   article > ul > li {
     font-size: 18px;
     line-height: 28px;
-    color: #a0afc4;
+    color: #fff;
   }
 
   .post-group-item:hover {
