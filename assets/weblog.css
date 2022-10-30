@@ -102,7 +102,7 @@ blockquote p:last-child {
 /* Header */
 
 header {
-  padding: 40px 0 0 0;
+  padding: 20px 0;
 }
 
 header h1 {
@@ -137,14 +137,14 @@ nav ul {
 }
 
 nav ul > li {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   display: inline;
   float: left;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 9pt;
-  font-weight: normal;
+  font-size: 11pt;
+  font-weight: 500;
 }
 
 .rss-icon {
@@ -162,12 +162,17 @@ nav ul > li {
 }
 
 /* Articles */
+article.micropost {
+  margin: 8px auto;
+  /* padding: 10px; */
+}
 
 .micropost {
-  /* background-color: #F0F2F5; */
+  background-color: #f8f8f8;
   margin: 20px auto;
   padding: 20px;
   max-width: 780px;
+  border-radius: 14px;
 }
 
 .post, .page, .post-groups {
@@ -341,6 +346,15 @@ and (max-width: 780px) {
     text-align: justify;
   }
 
+  article.micropost {
+    margin: 8px 20px;
+  }
+
+  .micropost {
+    margin: 0px auto;
+    padding: 20px;
+  }
+
   #photos {
     justify-content: center;
   }
@@ -378,6 +392,10 @@ and (max-width: 780px) {
     border-top: #f2f2f2 1px solid;
   }
 
+  .rss-icon {
+    display: none;
+  }
+
   .post-group-item {
     width: 100%;
   }
@@ -388,7 +406,7 @@ and (max-width: 780px) {
   }
 }
 
-
+/* Dark Mode */
 @media (prefers-color-scheme: dark) {
   body {
     background: #000;
@@ -400,12 +418,12 @@ and (max-width: 780px) {
     color: #aaa;
   }
 
-  .micropost > p, .post > p, .page > p {
-    color: #fff;
+  .micropost {
+    background-color: #18181C;
   }
 
-  nav ul > li {
-    background-color: #18181C;
+  .micropost > p, .post > p, .page > p {
+    color: #fff;
   }
 
   header h1 {
@@ -436,7 +454,7 @@ and (max-width: 780px) {
 
 @media (prefers-color-scheme: dark) and (max-width: 780px) {
   nav ul > li {
-    background-color: ##8e8e93;
+    background-color: black;
     border-bottom: #333537 1px solid;
   }
 
