@@ -77,6 +77,9 @@ blockquote {
   background-color: #F0F2F5;
   color: #999999;
   padding: 5px;
+  margin-inline-start: 30px;
+  margin-inline-end: 30px;
+  border-radius: 6px;
 }
 
 blockquote p {
@@ -87,6 +90,7 @@ blockquote p {
 blockquote p:last-child {
   font-style: normal;
   padding-left: 30px;
+  padding-right: 30px;
 
 }
 
@@ -407,7 +411,21 @@ and (max-width: 780px) {
     flex: 1;
     margin: 10px;
   }
+
+  blockquote {
+    margin: 0;
+  }
+  blockquote p {
+    margin: auto;
+    padding: 8px;
+  }
+
+  blockquote p:last-child {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
+
 
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
@@ -436,7 +454,6 @@ and (max-width: 780px) {
   blockquote {
     background-color: #333537;
     color: #fff;
-    padding: 5px;
   }
   
   article > ul > li {
