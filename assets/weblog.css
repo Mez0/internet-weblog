@@ -82,6 +82,11 @@ blockquote {
   border-radius: 6px;
 }
 
+blockquote ol {
+  padding-left: 3em;
+  color: inherit;
+}
+
 blockquote p {
   font-style: italic;
   padding: 0 10px;
@@ -108,7 +113,7 @@ blockquote p:last-child {
 /* Header */
 
 header {
-  padding: 20px 0;
+  padding: 20px 0 0;
 }
 
 header h1 {
@@ -455,7 +460,7 @@ and (max-width: 780px) {
     background-color: #333537;
     color: #fff;
   }
-  
+
   article > ul > li {
     font-size: 18px;
     line-height: 28px;
